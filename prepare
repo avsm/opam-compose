@@ -47,4 +47,5 @@ for i in "${!DIRS[@]}" ; do
   mv $i $PACKAGE_ROOT/
 done
 
-rm output.json
+ls -la
+rm -f output.json
